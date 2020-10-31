@@ -1,0 +1,217 @@
+:root {
+	--dark-grey: #343A40;
+	--light-green: #97C93E;
+	--dark-blue: #1F5270;
+	--light-grey: #87908E;
+	--accent-white: #F7F5F0;
+}
+/* google map */
+#gmap_canvas_iframe {
+	width:320px;
+	height:100%;
+}
+.mapouter{position:relative;height:100%;width:100%;}
+.gmap_canvas {overflow:hidden;background:none!important;height:100%;width:100%;}
+@media (min-width:400px) {
+		 #gmap_canvas_iframe {
+				width:500px;
+				height:400px;
+			}
+	}
+/*override colors*/
+.btn-primary {
+	background-color: var(--light-green);
+	border-color: transparent;
+}
+.btn-primary:hover {
+   background-color: #779090;
+   border-color: transparent;
+}
+.navbar-dark,
+.bg-dark {
+	background-color: rgba(52,52,64, 0.9)!important;
+}
+/*general*/
+section { min-height: 100vh; padding-top: 100px; }
+
+.footer-nav {
+	background-color: var(--dark-blue);
+}
+html,body { padding: 0;border: 0; }
+.container-fluid {
+
+}
+/*======================= HEADER =======================*/
+
+header.landing {
+	padding: 0;
+	margin:0;
+}
+.header-top-nav { padding: 0; margin:0; }
+.navbar-brand {
+	height: 60px;
+}
+.logo-text {
+	color: var(--accent-white);
+	font-size: 1.5rem;
+}
+.header-top-nav  a {
+	font-size: 1.2rem;
+	color:var(--light-grey);
+}
+a.nav-link {
+	font-size: 1.4rem;
+}
+a.nav-link.active { color: var(--light-green)!important;font-weight: bold;}
+
+.header-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(20,0,20,0.3);
+	z-index: 10;
+}
+.header-title-container {
+	z-index: 11;
+	top:15rem;
+	display: flex;
+	flex-direction: column;
+  height: 100%;
+	align-items: center;
+	/* align-items: center; */
+}
+.header-title {
+	color: var(--accent-white);
+	padding-top: 12rem;
+	font-size: 3.5rem;
+}
+.header-p {}
+.header-content__btn-container {
+	width: 90%;
+}
+/*==================== carousel ===========================*/
+.carousel-item {
+	position: relative;
+}
+.carousel-img {
+	min-height: 100vh;
+}
+.black-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 100%;
+	width: 100%;
+	background: rgba(20,0,20,0.5);
+}
+.carousel-caption {
+}
+.carousel-caption_title {
+	font-size: 4rem;
+}
+/*==================== ORADORES ===========================*/
+.oradores {
+	min-height: 100vh;
+	padding-top: 150px;
+	margin:0;
+}
+.cards-container { border: 1px solid red; }
+.card {
+	margin-left: 1rem;
+}
+
+/*====================   LUGAR  ===========================*/
+.lugar>.row>.col-md-6 { margin: 0; padding: 0; }
+.lugar { padding-top: 150px; }
+
+/*====================  INSCRIPCION  ===========================*/
+.inscripcion { padding-top: 150px; }
+textarea { width: 100%; }
+
+/*====================  FOOTER  ===========================*/
+footer {
+	width: 100%;
+	margin-bottom: 0 !important;
+}
+.footer-nav a { color: var(--accent-white);text-transform: capitalize; }
+.footer-nav a:hover { color: var(--light-green); }
+
+/*====================  MODAL  ===========================*/
+.ticket-gallery {
+	font-family: sans-serif;
+		display: flex;
+		padding: 10px;
+	}
+	.img-grid-item {
+		text-align: center;
+		height:50%;
+    padding: 0;
+		margin: 0;
+	}
+	.grid-item img {
+
+	}
+	.btn-container {
+	}
+
+@media (min-width:768px) {
+	/*======================= HEADER =======================*/
+
+	.navbar-brand {
+		height: 70px;
+	}
+	.logo-text {
+		font-size: 1.5rem;
+		margin-left: -1rem;
+	}
+	a.nav-link {
+		font-size: 1.1rem;
+	}
+	.header-overlay {
+		position: absolute;
+		top: 0;
+		left: 0;
+		height: 100%;
+		width: 100%;
+		background: rgba(20,0,20,0.3);
+		z-index: 10;
+	}
+	.header-title-container {
+
+		align-items: flex-end;
+    margin-right: 3rem;
+	}
+	.header-title {
+		color: var(--accent-white);
+		padding-top: 20rem;
+		font-size: 3.5rem;
+
+	}
+	.header-p {
+		text-align: right !important;
+
+		width: 30rem;
+		font-size: 1.1rem;
+	}
+	.header-content__btn-container a {
+		font-size: 1.5rem !important;
+	}
+	.header-content__btn-container .btn {
+		display: inline;
+	}
+	/*====================   LUGAR  ===========================*/
+	.lugar {
+		height: 50vh;
+	}
+	/* google map */
+	#gmap_canvas_iframe {
+		/* width:320px; */
+		/* height:95%; */
+	}
+	#modalContent{
+		width: 120%;
+
+	}
+}

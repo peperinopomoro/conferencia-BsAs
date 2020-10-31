@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang='es'>
+
+<head>
+  <meta charset='UTF-8'>
+  <meta name="viewport" content="widht=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Conferencia Buenos Aires</title>
+</head>
+
+<body data-spy="scroll" data-target="#conf-nav" data-offset="0">
+  <div class="container-fluid">
+    <div class="row">
+      <header class="col landing">
+        <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top" id="conf-nav">
+          <a href="index.html" class="">
+            <img src="images/images/codoacodo.png" alt="" class="navbar-brand ">
+            <span class="logo-text d-none d-md-inline">Conf Bs As</span>
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item text-center">
+                <a href="#" class="nav-link active">conferencia<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item  text-center">
+                <a href="#oradores" class="nav-link">oradores</a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="#lugar" class="nav-link">lugar</a>
+                      </li>
+              <li class="nav-item text-center">
+                <a href="#inscripcion" class="nav-link">incríbete</a>
+              </li>
+              <li class="nav-item text-center">
+                <a href="#tickets" class="nav-link" data-toggle="modal" data-target="#exampleModal">comprar tickets</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+
+      </header>
+    </div>
+  </div>
+
+  <main id="">
+        <div class="header-overlay">
+          <div class="header-title-container">
+            <h1 class="header-title text-right  px-0 mx-0 mb-4">Conf Bs As</h1>
+            <p class="text-center d-none d-sm-block text-light px-2 header-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab veritatis deserunt consequuntur cupiditate dolorem consectetur doloribus minus beatae eum perferendis consequatur non, eos numquam voluptates animi sunt expedita nostrum illum.</p>
+            <div class="header-content__btn-container text-right">
+              <a href="#inscripcion" class="btn btn-outline-light btn-block btn-lg mb-4 ">Quiero ser orador</a>
+              <a href="" class="btn btn-primary btn-block btn-lg" data-toggle="modal" data-target="#exampleModal">comprar tickets</a>
+            </div>
+          </div>
+        </div>
+        <!-- carousel -->
+        <div id="carouselExampleCaptions" class="carousel slide carousel-fade" data-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/images/hawaii.jpg" class="d-block w-100 carousel-img "alt="...">
+              <div class="black-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/images/hawaii2.jpg" class="d-block w-100 carousel-img" alt="...">
+              <div class="black-overlay"></div>
+            </div>
+            <div class="carousel-item">
+              <img src="images/images/hawaii3.jpg" class="d-block w-100 carousel-img" alt="...">
+              <div class="black-overlay"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- end carousel -->
+
+
+    <!--oradores -->
+    <section class="container-fluid oradores" id="oradores">
+      <div class="row">
+        <div class="col">
+          <h2 class="text-center"><small>conoce a los</small> oradores</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 col-md-4">
+          <div class="card mb-2">
+            <img src="images/speakers/tim.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge badge-warning">HTML</span>
+              <span class="badge badge-danger">Internet</span>
+              <h5 class="card-title">Tim Berners-Lee</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <!--end card-->
+        </div>
+        <!-- end card- wrapper -->
+        <div class="col-12 col-sm-8 col-md-4">
+          <div class="card mb-2">
+            <img src="images/speakers/stallman.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge badge-warning">GNU</span>
+              <span class="badge badge-danger">Free Software</span>
+              <h5 class="card-title">Richard Stallman</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <!--end card-->
+        </div>
+        <!-- end card- wrapper -->
+        <div class="col-12 col-sm-8 col-md-4">
+          <div class="card mb-2">
+            <img src="images/speakers/bjarne.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <span class="badge badge-warning">C++</span>
+              <span class="badge badge-danger">OOP</span>
+              <h5 class="card-title">Bjarne Stroustrup</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+            </div>
+          </div>
+          <!--end card-->
+        </div>
+        <!-- end card- wrapper -->
+      </div>
+      <!-- end row -->
+    </section>
+    <!--lugar -->
+    <section class='lugar container-fluid ' id='lugar'>
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-center pb-3">¿Dónde?</h2>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class='col-12 col-md-6 mx-0 px-0'>
+          <img src='images/images/honolulu.jpg' class='img-fluid mx-0 px-0'>
+        </div>
+        <div class="col-12 col-md-6 bg-dark text-light px-3 pt-3 pb-3">
+          <h2>Bs As - Octubre 2020</h2>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Recusandae omnis voluptate vero maiores neque voluptates dolores officia odit. Commodi at tempore ullam maiores id aliquam nesciunt nobis deserunt, odit, nulla.</p>
+          <!-- trigger google map modal -->
+          <button type="button" class="btn btn-primary btn-lg btn-block" data-toggle="modal" data-target="#mapModal">
+            Ver cómo llegar
+          </button>
+        </div>
+      </div>
+    </section>
+    <!--inscripcion -->
+    <section class='inscripcion container-fluid mb-5' id='inscripcion'>
+      <div class="row">
+        <div class="col text-center">
+          <h2>Conviertete en un <span class="text-bold"> orador</span></h2>
+          <p>Anotate como orador para dar una charla</p>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div class='col-12 col-md-10'>
+          <form>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="input-nombre">Nombre</label>
+                <input type="text" class="form-control" id="input-nombre" placeholder="nombre">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="input-apellido">Apellido</label>
+                <input type="text" class="form-control" id="input-apellido" placeholder="apellido">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col">
+                <textarea placeholder="Sobre que quiere hablar"></textarea>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group col">
+                <small>Recuerda incluir un título para tu charla</small>
+              </div>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+          </form>
+          <!--end form-->
+        </div>
+      </div>
+    </section>
+  </main>
+  <!--footer-->
+  <footer class="container-fluid">
+    <div class="row py-2">
+      <nav class="footer-nav col">
+
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link active" href="faq.html">Preguntas frecuentes</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contactanos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Prensa</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Conferencias</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Términos y condiciones</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Privacidad</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Estudiantes</a>
+        </li>
+      </ul>
+    </nav>
+    </div>
+
+  </footer>
+
+<!--                    modal for tickets             -->
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">
+          Faltan: <span id="countdown" class="text-danger"></span>
+           ¡Apurate!
+        </h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- carousel -->
+        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" data-interval="false">
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div class="ticket-gallery">
+                <img src="https://picsum.photos/id/202/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/201/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/25/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/98/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/37/200/300" alt="" class="img-grid-item">
+              </div>
+              <!-- end ticket gallery -->
+              <h2 class="text-center">Día 1</h2>
+
+            </div>
+            <div class="carousel-item">
+              <div class="ticket-gallery">
+                <img src="https://picsum.photos/id/1/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/10/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/101/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/102/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/103/200/300" alt="" class="img-grid-item">
+              </div>
+              <!-- end ticket gallery -->
+              <h2 class="text-center">Día 2</h2>
+            </div>
+            <div class="carousel-item">
+
+              <div class="ticket-gallery">
+                <img src="https://picsum.photos/id/12/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/16/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/120/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/161/200/300" alt="" class="img-grid-item">
+                <img src="https://picsum.photos/id/56/200/300" alt="" class="img-grid-item">
+              </div>
+              <!-- end ticket gallery -->
+              <h2 class="text-center">Día 3</h2>
+            </div>
+          </div>
+          <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+          </a>
+          <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+          </a>
+        </div>
+        <!-- end carousel -->
+
+           <div class="btn-container">
+             <form action="">
+              <div class="row">
+                <div class="col">
+                  <input type="number" min="1" step="1" class="form-control" id="qty-tickets">
+                </div>
+                <div class="col">
+                  <button class="btn btn-primary form-control"
+                          data-toggle="collapse" data-target="#payment-form"
+                          aria-expanded="false" aria-controls="collapseExample"
+                          id="continue-btn">
+                          Continuar
+                  </button>
+                </div>
+              </div>
+            </form>
+           </div>
+           <!-- end btn-container -->
+      <div class="display-payment-info">
+        <div class="row">
+          <div class="col-6 mt-3">
+            <p class="font-weight-bold">Total: $</p>
+          </div>
+          <div class="col-6 mt-3 font-weight-bold" id="purchase-total">
+          </div>
+        </div>
+      </div>
+
+      <!-- show payments -->
+      <div class="collapse container-fluid" id="payment-form">
+        <div class="row">
+          <form>
+            <div class="form-row">
+              <div class="col">
+                <div class="form-group">
+                  <label for="name">Nombre</label>
+                  <input type="text" class="form-control" id="name" placeholder="Tu nombre">
+                </div>
+              </div>
+              <div class="col">
+                <div class="form-group">
+                  <label for="email">Email</label>
+                  <input type="email" class="form-control" id="email" placeholder="Tu email">
+                </div>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="col col-sm-8">
+                <div class="form-group">
+                  <label for="credit-card">Tarjeta de crédito</label>
+                  <input type="text" class="form-control" id="credit-card" placeholder="Tarjeta crédito">
+                </div>
+              </div>
+              <div class="col col-sm-4">
+                <div class="form-group">
+                  <label for="security-code">Código seguridad</label>
+                  <input type="text" class="form-control" id="security-code" placeholder="cod seguridad">
+                </div>
+              </div>
+            </div>
+            <div class="form-group">
+              <button type="button" class="btn btn-block btn-danger"
+                      data-toggle="modal"
+                      data-target="#exampleModal"
+                      id="pay-button">
+                      Pagar
+                    </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+      <!-- end modal body -->
+    </div>
+  </div>
+</div>
+<!-- end modal for tickets -->
+
+<!-- modal after purchasing ok -->
+<!-- Modal -->
+<div class="modal fade" id="purchaseOK" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="">¡Ya sos parte de Conf BS AS!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <p>Hemos procesado tu compra con éxito. Recibirás un correo con los detalles.</p>
+        <p>¡Nos vemos en Conf BS AS!</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-primary" data-dismiss="modal">Listo</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- end purchase ok -->
+
+  </div>
+   <!-- google map Modal  -->
+
+
+   <!-- Modal -->
+   <div class="modal fade" id="mapModal" tabindex="-1" aria-labelledby="mapModalLabel" aria-hidden="true">
+     <div class="modal-dialog" >
+       <div class="modal-content" id="modalContent">
+         <div class="modal-header">
+           <h5 class="modal-title" id="exampleModalLabel">Cómo llegar</h5>
+           <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+             <span aria-hidden="true">&times;</span>
+           </button>
+         </div>
+         <div class="modal-body mx-auto">
+           <div class="mapouter ">
+             <div class="gmap_canvas">
+               <iframe  id="gmap_canvas_iframe" src="https://maps.google.com/maps?q=obelisco&t=&z=13&ie=UTF8&iwloc=&output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+              </div>
+           </div>
+           <div class="container-fluid px-0">
+             <div class="row">
+               <div class="col-12">
+                 <div class="accordion" id="accordionExample">
+                   <div class="card">
+                     <div class="card-header" id="headingOne">
+                       <h2 class="mb-0">
+                         <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                           Ómnibus
+                         </button>
+                       </h2>
+                     </div>
+
+                     <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                       <div class="card-body">
+                         <ul>
+                           <li>Línea 45</li>
+                           <li>Línea 129</li>
+                           <li>Línea 87</li>
+                         </ul>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="card">
+                     <div class="card-header" id="headingTwo">
+                       <h2 class="mb-0">
+                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                           Subte
+                         </button>
+                       </h2>
+                     </div>
+                     <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                       <div class="card-body">
+                         <ul>
+                           <li>Línea D: Estación X</li>
+                         </ul>
+                       </div>
+                     </div>
+                   </div>
+                   <div class="card">
+                     <div class="card-header" id="headingThree">
+                       <h2 class="mb-0">
+                         <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                           Tren
+                         </button>
+                       </h2>
+                     </div>
+                     <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                       <div class="card-body">
+                         <ul>
+                           <li>Sarmiento: estación Z</li>
+                         </ul>
+                       </div>
+                     </div>
+                   </div>
+                 </div>
+                 <!-- end accordion -->
+               </div>
+             </div>
+             <!-- end row -->
+
+           </div>
+         </div>
+       </div>
+     </div>
+   </div>
+   <!-- end google map modal -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="js/main.js"></script>
+
+</body>
+
+</html>

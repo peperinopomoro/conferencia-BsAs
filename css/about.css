@@ -1,0 +1,12 @@
+.about {
+  padding-top: 0;
+}
+.about-header {
+  background-image: url('images/images/hawaii3.jpg');
+  /* background: rgba(100,200,100,0.9); */
+  mix-blend-mode: luminosity;
+  height: 25vh;
+}
+.about-title {
+  padding-top: 100px;
+}
